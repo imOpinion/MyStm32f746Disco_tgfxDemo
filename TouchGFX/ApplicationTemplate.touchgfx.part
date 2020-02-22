@@ -1,0 +1,20 @@
+
+{
+  "Application": {
+    "Name": "stm32F746Disco_TgfxQspiSdram",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 24 ],
+    "AvailableLCDs":
+    {
+      "24": "LCD24bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../stm32F746Disco_TgfxQspiSdram.ioc --platform=m7"
+  },
+  "Version": "4.13.0"
+}
